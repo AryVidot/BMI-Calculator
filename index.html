@@ -17,9 +17,20 @@
       </header>
       <div class="input">
         <div class="input--weight">
-          <p>Your weight</p>
-          <input type="text" />
+          <p>Weight <span>cm</span>/ <span>Feet</span></p>
+          <input id="weight" type="text" />
         </div>
+        <div class="input--height">
+          <p>Height <span>kg</span>/ <span>Stone</span></p>
+          <input id="height" type="text" />
+        </div>
+        <div class="calculate">
+          <button type="submit">Calculate</button>
+        </div>
+      </div>
+      <div class="bmi-result">
+        <p>Your BMI is <span></span></p>
+        <p>Thank you for using.</p>
       </div>
     </div>
     <script src="main.js"></script>
